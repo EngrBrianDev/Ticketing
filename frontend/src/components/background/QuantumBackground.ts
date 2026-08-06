@@ -271,8 +271,8 @@ export class QuantumBackground {
 
             // Enterprise Optimization: Draw only 2 layers instead of 4, use standard blending
             // Layer 1 — wide soft halo (glow volume)
-            ctx!.lineWidth = f.coreWidth * 12;
-            ctx!.strokeStyle = `rgba(${f.color}, ${alpha * 0.15})`;
+            ctx!.lineWidth = f.coreWidth * 2;
+            ctx!.strokeStyle = `rgba(${f.color}, ${alpha * 0.05})`;
             ctx!.stroke(path);
 
             // Layer 2 — bright core

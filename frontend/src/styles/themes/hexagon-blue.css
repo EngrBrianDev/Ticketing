@@ -2,7 +2,7 @@
    Design Language: Hexagon Blue
    High-tech glassmorphism with animated hexagon canvas.
    ========================================= */
-[data-design-language="hexagon-blue"] {
+html[data-design-language="hexagon-blue"] {
     --font: 'Inter', 'Segoe UI', system-ui, sans-serif;
     --font-heading: var(--font);
     
@@ -42,7 +42,7 @@
 }
 
 /* ─── Hexagon Blue: Dark Mode ─── */
-[data-design-language="hexagon-blue"][data-color-mode="dark"] {
+html[data-design-language="hexagon-blue"][data-color-mode="dark"] {
     /* Surfaces — Translucent for glassmorphism */
     --color-bg-base: rgba(8, 12, 20, 0.85);
     --color-bg-surface: rgba(15, 25, 45, 0.6);
@@ -90,7 +90,7 @@
 }
 
 /* ─── Hexagon Blue: Light Mode ─── */
-[data-design-language="hexagon-blue"][data-color-mode="light"] {
+html[data-design-language="hexagon-blue"][data-color-mode="light"] {
     --color-primary: #0097a7;
     --color-primary-hover: #00838f;
     --color-primary-bg-subtle: rgba(0, 151, 167, 0.08);
