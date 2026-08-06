@@ -3,7 +3,7 @@
    High-energy physics / Modern Brutalism.
    Faithful to DESIGN.md specification.
    ========================================= */
-[data-design-language="quantum"] {
+html[data-design-language="quantum"] {
     /* Typography ??? Aggressive, engineered */
     --font: 'Geist', 'Space Grotesk', system-ui, sans-serif;
     --font-heading: 'Space Grotesk', system-ui, sans-serif;
@@ -41,7 +41,7 @@
 
 /* ????????? Quantum: Light Mode ????????? */
 /* Per code.html reference: warm off-white with amber tints */
-[data-design-language="quantum"][data-color-mode="light"] {
+html[data-design-language="quantum"][data-color-mode="light"] {
     --color-primary: #795900; /* Darker amber for readability on light bg */
     --color-primary-hover: #5c4300;
     --color-primary-bg-subtle: rgba(121, 89, 0, 0.08);
@@ -132,7 +132,7 @@
 
 /* ????????? Quantum: Dark Mode ????????? */
 /* Faithful to DESIGN.md: The Void, Carbon surfaces, Energy Leak glows */
-[data-design-language="quantum"][data-color-mode="dark"] {
+html[data-design-language="quantum"][data-color-mode="dark"] {
     /* Level 0: The Void */
     --color-bg-base: #000000;
     /* Level 1: The Chamber */
@@ -151,7 +151,7 @@
     --sidebar-bg: #000000;
     --sidebar-text: #9C8F78;
     --sidebar-heading: #FFFFFF;
-    --sidebar-hover-bg: #0D0D0D;
+    --sidebar-hover-bg: #111111;
     --sidebar-hover-text: #E2E2E2;
     --sidebar-active-bg: #FFBF00;
     --sidebar-active-text: #000000;
